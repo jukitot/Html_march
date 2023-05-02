@@ -1,0 +1,40 @@
+.widgets {
+    height: 500px;
+    margin: 50px;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+.big {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bid-wig {
+    height: 500px;
+    width: 562px;
+    background: #4f76bd;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+.contact {
+    height: 700px;
+    margin: 50px;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
