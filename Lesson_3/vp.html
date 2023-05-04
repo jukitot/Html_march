@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    body{
+      margin: 0;
+    }
+    .red{
+      width: 100vw;
+      height: 100vh;
+      background-color: indianred;
+    }
+    .yellow{
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(255, 255, 0, 0.86);
+    }
+    .green{
+      width: 100vw;
+      height: 100vh;
+      background-color: darkseagreen;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+<div id="red" class="red"><a href="#yellow">Next</a></div>
+<div id="yellow" class="yellow"><a href="#green">Next</a></div>
+<div id="green" class="green"><a href="#red">Up</a></div>
+</body>
+</html>
