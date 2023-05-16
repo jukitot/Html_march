@@ -1,0 +1,45 @@
+form{
+    width: 500px;
+    height: 600px;
+    background-color: darkseagreen;
+    margin: 0 auto;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.field{
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    width: 300px;
+    height: 35px;
+    padding: 5px 25px;
+}
+h3{
+    color: whitesmoke;
+}
+.account_type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+
+}
+#submit{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(173, 211, 173, 0.83);
+    margin-top: 30px;
+    border: none;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgba(161, 196, 161, 0.83);
+
+}
