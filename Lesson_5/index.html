@@ -8,17 +8,24 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
     <style>
+    <!--id class psevdo tag -->
         div li{
             color:coral;
         }
-        .content li{
-            color: cadetblue;
-        }
+        /*.content li{*/
+        /*    color: cadetblue;*/
+        /*}*/
         div.content > ul > li{
             color: darkseagreen;
         }
         ul li{
             color: lightskyblue;
+        }
+        body ul li{
+            color: mediumpurple;
+        }
+        div.content > ul:nth-child(1) > li:nth-child(1){
+            color: pink;
         }
 
     </style>
