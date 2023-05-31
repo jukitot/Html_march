@@ -1,10 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+        }
+        .yellow{
+            width: 500px;
+            height: 200px;
+            background-color: lightyellow;
+        }
+        .blue{
+            width: 500px;
+            height: 200px;
+            background-color: lightskyblue;
+        }
+        @media screen and (min-width: 0) and (max-width: 600px) {
+            body{
+                flex-direction: column;
+            }
+            .blue{
+                background-color: lightgreen;
+            }
+        }
+        @media screen and (min-width: 601px) and (max-width: 900px) {
+            body{
+                flex-direction: column;
+            }
+            .blue{
+                background-color: lightpink;
+            }
+        }
+    </style>
 </head>
 <body>
-
+<div class="yellow"></div>
+<div class="blue"></div>
 </body>
 </html>
